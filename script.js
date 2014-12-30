@@ -1,6 +1,4 @@
 var obj = function (el) {
-	var dtp    = DOMTokenList.prototype;
-
 	this.el = document.querySelectorAll(el);
 	//console.log(this.elements.length)
 
@@ -23,8 +21,9 @@ obj.prototype = {
 	toggleClass: function (value) {
 		this.loop(this.el, "toggle", value);
 		return this;
-	}
-}
+	},
+
+}	
 
 function $ (el) {
 	return new obj(el);
