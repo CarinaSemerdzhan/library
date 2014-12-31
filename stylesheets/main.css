@@ -1,0 +1,23 @@
+.wrapper {
+  width: 50%;
+  float: left; }
+  .wrapper > * {
+    margin-bottom: 20px; }
+  .wrapper .color {
+    color: red; }
+  .wrapper .font {
+    font: 16px Arial; }
+  .wrapper .border {
+    border: 3px solid yellow; }
+  .wrapper .demo {
+    padding: 20px; }
+  .wrapper .result {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid yellow; }
+  .wrapper #result {
+    margin: 10px; }
+
+/*# sourceMappingURL=main.css.map */
